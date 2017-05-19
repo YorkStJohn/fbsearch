@@ -142,7 +142,6 @@ a:active, a:focus, a:hover {
 
 header[role=banner] {
     display: block;
-    margin-bottom: 50px;
     background: #fff;
     position: relative
 }
