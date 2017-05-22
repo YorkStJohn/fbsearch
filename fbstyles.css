@@ -2406,7 +2406,7 @@ a.tab.active {
 
 .inline-tabs li a:hover {
     text-decoration: none;
-    background: #e0e0e0;
+    background: #2D5BA9;
     color: #fff;
 }
 
@@ -2517,3 +2517,5 @@ form.clearfix span.twitter-typeahead {
     font-size: 52px;
   }
 }
+
+input {border-radius:0;}
