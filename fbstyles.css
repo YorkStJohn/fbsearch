@@ -224,8 +224,8 @@ footer[role=contentinfo] {
 [class*=' fb-grid--'], [class^=fb-grid--] {
     display: inline-block;
     float: left;
-    padding-left: 20px;
-    padding-right: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .fb-grid, .fb-grid--100, .fb-grid--25, .fb-grid--30, .fb-grid--75 {
@@ -321,7 +321,7 @@ mark {
 }
 
 h1, h2, h3, h4, h5 {
-    font-weight: 400
+    font-weight: 700
 }
 
 .headerFixed header[role=banner] {
@@ -833,6 +833,8 @@ a.tab.active {
     border-color: #6D6D6D
 }
 
+/*
+
 .fb-searchbar input[type=search]::-webkit-input-placeholder {
     font-style: italic
 }
@@ -848,6 +850,8 @@ a.tab.active {
 .fb-searchbar input[type=search]:-ms-input-placeholder {
     font-style: italic
 }
+
+*/
 
 .fb-searchbar .fb-btn {
     border: none;
@@ -880,7 +884,7 @@ a.tab.active {
     text-decoration: inherit;
     padding-right: .7em;
     position: absolute;
-    top: 17px;
+    top: 14px;
     right: auto;
     font-size: 1.5em;
 }
@@ -904,7 +908,22 @@ a.tab.active {
 /* Custom Entries */
 
 .staff-details h2 {
-    margin-top: 0;
+    margin: 0 0 10px 0;
+}
+
+.staff-details h3 {
+    margin: 0 0 30px 0;
+    font-size: 1.2em;
+    color: #2D5BA9;
+}
+
+.staff-details p {
+    margin: 0 0 10px 0;
+}
+
+.staff-details p a {
+    color: #535353;
+    text-decoration: none;
 }
 
 .tt-menu {
@@ -1883,7 +1902,7 @@ a.tab.active {
     display: inline-block;
     zoom: 1;
     float: left;
-    width: 90%;
+    width: 95%;
     padding-right: .5em;
     font-weight: 500;
 }
@@ -1893,8 +1912,9 @@ a.tab.active {
     display: inline-block;
     zoom: 1;
     float: left;
-    width: 10%;
+    width: 5%;
     font-weight: 500;
+    padding-left: 5%;
 }
 
 .fb-category--all {
@@ -2374,6 +2394,11 @@ a.tab.active {
 }
 
 .inline-tabs li a.active {
+    background: #2D5BA9;
+    color: #fff;
+}
+
+.inline-tabs li a.active:hover {
     background: #2D5BA9;
     color: #fff;
 }
