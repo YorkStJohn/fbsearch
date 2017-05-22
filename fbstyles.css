@@ -2491,3 +2491,23 @@ form.clearfix span.twitter-typeahead {
         right: 0!important
     }
 }
+@media (max-width:739px) {
+  .fb-result__image {display:none;}
+  .fb-result__info.with-image {width:100%;}
+}
+
+@media (max-width:581px) {
+  .inline-tabs li {
+    display: inline-block;
+    margin-bottom: .5em;
+    text-align: center;
+    padding: 0 3px;
+    width: 47%;
+  }
+
+  .inline-tabs li a {
+    padding: 12px 12px;
+  }
+  .inline-tabs {display:inline-block;text-align:center;margin:0 0 10px;width:100%}
+  .fb-message {padding-bottom:0;}
+}
