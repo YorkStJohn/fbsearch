@@ -2511,3 +2511,9 @@ form.clearfix span.twitter-typeahead {
   .inline-tabs {display:inline-block;text-align:center;margin:0 0 10px;width:100%}
   .fb-message {padding-bottom:0;}
 }
+
+@media (max-width:1200px) {
+  .search h1 {
+    font-size: 52px;
+  }
+}
