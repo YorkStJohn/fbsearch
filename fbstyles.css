@@ -2507,7 +2507,7 @@ form.clearfix span.twitter-typeahead {
   .fb-result__info.with-image {width:100%;}
 }
 
-@media (max-width:669px) {
+@media (max-width:814px) {
   .inline-tabs li {
     display: inline-block;
     margin-bottom: .5em;
