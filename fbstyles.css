@@ -2518,4 +2518,4 @@ form.clearfix span.twitter-typeahead {
   }
 }
 
-input {border-radius:0;}
+input[type=search] {-webkit-border-radius:0;-webkit-appearance:none;}
