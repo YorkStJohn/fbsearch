@@ -1204,7 +1204,7 @@ a.tab.active {
         float: left;
         padding-left: 1em;
         padding-right: 1em;
-        width: 25%
+        width: 20%
     }
     .fb-profile__image.skim-left {
         padding-left: 0
@@ -1221,7 +1221,7 @@ a.tab.active {
         float: left;
         padding-left: 1em;
         padding-right: 1em;
-        width: 20%
+        width: 15%
     }
     .fb-profile__image.skim-left {
         padding-left: 0
@@ -2528,6 +2528,16 @@ form.clearfix span.twitter-typeahead {
   .search h1 {
     font-size: 52px;
   }
+}
+
+@media (max-width:640px) {
+    .fb-profile__image {
+        display: none;
+    }
+}
+
+.staff-details {
+    width: 100%;
 }
 
 input[type=search] {-webkit-border-radius:0;-webkit-appearance:none;}
