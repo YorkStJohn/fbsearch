@@ -2537,7 +2537,7 @@ form.clearfix span.twitter-typeahead {
 }
 
 .staff-details {
-    width: 100%;
+    width: auto;
 }
 
 input[type=search] {-webkit-border-radius:0;-webkit-appearance:none;}
