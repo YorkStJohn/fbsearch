@@ -1093,7 +1093,7 @@ a.tab.active {
 }
 
 .fb-alert-message {
-    margin: 0 0 40px;
+    margin: 40px 0;
     color: inherit;
 }
 
@@ -2091,20 +2091,21 @@ a.tab.active {
 
 .fb-pop-search__terms li {
     display: inline-block;
-    margin: 0 5px 5px 0
+    margin: 0 0px 40px 0;
+    padding: 0 4px 0 0;
 }
 
 .fb-pop-search__terms li a {
-    background: #F8F8F8;
+    background: #F5F5F5;
     display: inline-block;
     color: #535353;
     padding: 10px 15px;
     text-decoration: none;
+    font-weight: 700;
 }
 
 .fb-pop-search__terms li a:active, .fb-pop-search__terms li a:focus, .fb-pop-search__terms li a:hover {
-    background: #e0e0e0;
-    color: #fff;
+    background: #D5D5D5;
 }
 
 .dropdown {
