@@ -17,13 +17,15 @@ span.tt-dropdown-menu {
   border: 1px solid #ebebeb;
 }
 .tt-suggestion, span.tt-dropdown-menu h4 {
-  padding: 6px;
+  padding: 2px 0 2px 20px;
   box-sizing:border-box;
   cursor: pointer;
   width:100%;
+  font-size: 18px;
 }
 .tt-suggestion:hover {
-  background-color: #fafafa;
+  background-color: #2F99C4;
+  color: #fff;
 }
 .tt-hint {
   color: #aaa;

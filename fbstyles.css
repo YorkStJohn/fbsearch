@@ -978,7 +978,7 @@ a.tab.active {
 }
 
 .tt-suggestion {
-    border-bottom: 1px dashed #A4A4A4
+    /* border-bottom: 1px dashed #A4A4A4 */
 }
 
 .tt-suggestion.tt-cursor a {
@@ -2439,11 +2439,12 @@ a.tab.active {
     position: absolute;
     background: #fff;
     color: inherit;
-    top: 100%;
-    left: 0;
     z-index: 100;
     display: block;
-    right: 10%
+    right: 10%;
+    border: 1px solid #e0e0e0;
+    padding: 6px 0;
+    box-shadow: -10px 10px 0px 0px rgba(0,0,0,0.1);
 }
 
 @media (min-width:640px) {
@@ -2460,7 +2461,7 @@ a.tab.active {
 }
 
 .tt-suggestion {
-    border-bottom: 1px dashed #A4A4A4
+    /* border-bottom: 1px dashed #A4A4A4; */
 }
 
 .tt-suggestion.tt-cursor a {
