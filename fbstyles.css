@@ -907,8 +907,35 @@ a.tab.active {
 
 /* Custom Entries */
 
+.staff-details {
+    width: 75%;
+    margin: 0;
+    padding-right: 1em;
+}
+
+@media (min-width:740px) {
+    .staff-details {
+        width: 80%;
+    }
+}
+
+@media (min-width:960px) {
+    .staff-details {
+        width: 85%;
+    }
+}
+
+@media (max-width:640px) {
+    .staff-details {
+        width: 100%;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
 .staff-details h2 {
     margin: 0 0 10px 0;
+    font-size: 1.5em;
 }
 
 .staff-details h3 {
@@ -1139,7 +1166,7 @@ a.tab.active {
         float: left;
         padding-left: 1em;
         padding-right: 1em;
-        width: 25%
+        width: 20%
     }
     .fb-result__image.skim-left {
         padding-left: 0
@@ -1186,7 +1213,7 @@ a.tab.active {
     float: left;
     padding-left: 1em;
     padding-right: 1em;
-    width: 30%
+    width: 25%
 }
 
 .fb-profile__image.skim-left {
@@ -1221,7 +1248,7 @@ a.tab.active {
         float: left;
         padding-left: 1em;
         padding-right: 1em;
-        width: 15%
+        width: 15%;
     }
     .fb-profile__image.skim-left {
         padding-left: 0
@@ -2529,10 +2556,6 @@ form.clearfix span.twitter-typeahead {
     .fb-profile__image {
         display: none;
     }
-}
-
-.staff-details {
-    width: auto;
 }
 
 input[type=search] {-webkit-border-radius:0;-webkit-appearance:none;}
