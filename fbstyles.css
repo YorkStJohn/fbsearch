@@ -2529,6 +2529,7 @@ form.clearfix span.twitter-typeahead {
   .fb-result__image {display:none;}
   .fb-result__info.with-image {width:100%;}
   .fb-pagination {text-align: center;}
+  .fb-result_intro img {display:none;}
 }
 
 @media (max-width:814px) {
