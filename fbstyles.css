@@ -2573,3 +2573,6 @@ input[type=search] {-webkit-border-radius:0;-webkit-appearance:none;}
             font-size: 36px;
         }
 }
+.fb-result__intro a.btn:hover {
+    color: #fff;
+}
