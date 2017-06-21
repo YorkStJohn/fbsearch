@@ -27,6 +27,10 @@ span.tt-dropdown-menu {
   background-color: #2F99C4;
   color: #fff;
 }
+.tt-suggestion.tt-selectable.tt-cursor {
+background-color: #2F99C4;
+color: #fff;
+}
 .tt-hint {
   color: #aaa;
 }
